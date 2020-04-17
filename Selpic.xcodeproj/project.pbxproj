@@ -7,9 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C526255C23BED27700EC1910 /* SelpicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C526255A23BED27700EC1910 /* SelpicManager.h */; };
+		C526255D23BED27700EC1910 /* SelpicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C526255B23BED27700EC1910 /* SelpicManager.m */; };
+		C526256223BF16BE00EC1910 /* PrintDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C526256023BF16BE00EC1910 /* PrintDataModel.h */; };
+		C526256323BF16BE00EC1910 /* PrintDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C526256123BF16BE00EC1910 /* PrintDataModel.m */; };
 		C5E3764A23BDFEAE00D3F5CE /* Selpic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E3764023BDFEAE00D3F5CE /* Selpic.framework */; };
 		C5E3764F23BDFEAE00D3F5CE /* SelpicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3764E23BDFEAE00D3F5CE /* SelpicTests.m */; };
 		C5E3765123BDFEAE00D3F5CE /* Selpic.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3764323BDFEAE00D3F5CE /* Selpic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E3765F23BE004000D3F5CE /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3765B23BE003F00D3F5CE /* Product.m */; };
+		C5E3766023BE004000D3F5CE /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3765C23BE004000D3F5CE /* GCDAsyncSocket.h */; };
+		C5E3766123BE004000D3F5CE /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3765D23BE004000D3F5CE /* GCDAsyncSocket.m */; };
+		C5E3766223BE004000D3F5CE /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3765E23BE004000D3F5CE /* Product.h */; };
+		C5E3767423BE01F100D3F5CE /* dhServerApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766323BE01EF00D3F5CE /* dhServerApi.h */; };
+		C5E3767523BE01F100D3F5CE /* ProductDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766423BE01EF00D3F5CE /* ProductDefine.h */; };
+		C5E3767623BE01F100D3F5CE /* PenMaJiProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766523BE01EF00D3F5CE /* PenMaJiProtocol.h */; };
+		C5E3767723BE01F100D3F5CE /* HBS_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766623BE01EF00D3F5CE /* HBS_Tools.m */; };
+		C5E3767823BE01F100D3F5CE /* UIImage+CECategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766723BE01F000D3F5CE /* UIImage+CECategory.h */; };
+		C5E3767923BE01F100D3F5CE /* UIImage+CECategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766823BE01F000D3F5CE /* UIImage+CECategory.m */; };
+		C5E3767A23BE01F100D3F5CE /* PenMaJiProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766923BE01F000D3F5CE /* PenMaJiProtocol.m */; };
+		C5E3767B23BE01F100D3F5CE /* dhServerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766A23BE01F000D3F5CE /* dhServerApi.m */; };
+		C5E3767C23BE01F100D3F5CE /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766B23BE01F000D3F5CE /* AFNetworkReachabilityManager.m */; };
+		C5E3767D23BE01F100D3F5CE /* TcpCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766C23BE01F000D3F5CE /* TcpCmd.h */; };
+		C5E3767E23BE01F100D3F5CE /* TcpCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766D23BE01F000D3F5CE /* TcpCmd.m */; };
+		C5E3767F23BE01F100D3F5CE /* PrinterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3766E23BE01F000D3F5CE /* PrinterItem.h */; };
+		C5E3768023BE01F100D3F5CE /* PrinterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3766F23BE01F000D3F5CE /* PrinterItem.m */; };
+		C5E3768123BE01F100D3F5CE /* ServerApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3767023BE01F000D3F5CE /* ServerApi.h */; };
+		C5E3768223BE01F100D3F5CE /* ServerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3767123BE01F100D3F5CE /* ServerApi.m */; };
+		C5E3768323BE01F100D3F5CE /* HBS_Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3767223BE01F100D3F5CE /* HBS_Tools.h */; };
+		C5E3768423BE01F100D3F5CE /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3767323BE01F100D3F5CE /* AFNetworkReachabilityManager.h */; };
+		C5E3768623BE027E00D3F5CE /* BasePtotocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3768523BE027E00D3F5CE /* BasePtotocol.h */; };
+		C5E3768923BE030800D3F5CE /* ServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3768723BE030800D3F5CE /* ServerConfig.m */; };
+		C5E3768A23BE030800D3F5CE /* ServerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3768823BE030800D3F5CE /* ServerConfig.h */; };
+		C5E3768D23BE036900D3F5CE /* NSObject_property.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3768B23BE036800D3F5CE /* NSObject_property.h */; };
+		C5E3768E23BE036900D3F5CE /* NSObject_property.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3768C23BE036900D3F5CE /* NSObject_property.m */; };
+		C5E3769123BE03A300D3F5CE /* BaseKVCObj.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E3768F23BE03A300D3F5CE /* BaseKVCObj.h */; };
+		C5E3769223BE03A300D3F5CE /* BaseKVCObj.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3769023BE03A300D3F5CE /* BaseKVCObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +55,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C526255A23BED27700EC1910 /* SelpicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelpicManager.h; sourceTree = "<group>"; };
+		C526255B23BED27700EC1910 /* SelpicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelpicManager.m; sourceTree = "<group>"; };
+		C526256023BF16BE00EC1910 /* PrintDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintDataModel.h; sourceTree = "<group>"; };
+		C526256123BF16BE00EC1910 /* PrintDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintDataModel.m; sourceTree = "<group>"; };
 		C5E3764023BDFEAE00D3F5CE /* Selpic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Selpic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3764323BDFEAE00D3F5CE /* Selpic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Selpic.h; sourceTree = "<group>"; };
 		C5E3764423BDFEAE00D3F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E3764923BDFEAE00D3F5CE /* SelpicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelpicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3764E23BDFEAE00D3F5CE /* SelpicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelpicTests.m; sourceTree = "<group>"; };
 		C5E3765023BDFEAE00D3F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E3765B23BE003F00D3F5CE /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		C5E3765C23BE004000D3F5CE /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C5E3765D23BE004000D3F5CE /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C5E3765E23BE004000D3F5CE /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		C5E3766323BE01EF00D3F5CE /* dhServerApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhServerApi.h; sourceTree = "<group>"; };
+		C5E3766423BE01EF00D3F5CE /* ProductDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDefine.h; sourceTree = "<group>"; };
+		C5E3766523BE01EF00D3F5CE /* PenMaJiProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenMaJiProtocol.h; sourceTree = "<group>"; };
+		C5E3766623BE01EF00D3F5CE /* HBS_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBS_Tools.m; sourceTree = "<group>"; };
+		C5E3766723BE01F000D3F5CE /* UIImage+CECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CECategory.h"; sourceTree = "<group>"; };
+		C5E3766823BE01F000D3F5CE /* UIImage+CECategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CECategory.m"; sourceTree = "<group>"; };
+		C5E3766923BE01F000D3F5CE /* PenMaJiProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenMaJiProtocol.m; sourceTree = "<group>"; };
+		C5E3766A23BE01F000D3F5CE /* dhServerApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dhServerApi.m; sourceTree = "<group>"; };
+		C5E3766B23BE01F000D3F5CE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C5E3766C23BE01F000D3F5CE /* TcpCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpCmd.h; sourceTree = "<group>"; };
+		C5E3766D23BE01F000D3F5CE /* TcpCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcpCmd.m; sourceTree = "<group>"; };
+		C5E3766E23BE01F000D3F5CE /* PrinterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterItem.h; sourceTree = "<group>"; };
+		C5E3766F23BE01F000D3F5CE /* PrinterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterItem.m; sourceTree = "<group>"; };
+		C5E3767023BE01F000D3F5CE /* ServerApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerApi.h; sourceTree = "<group>"; };
+		C5E3767123BE01F100D3F5CE /* ServerApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerApi.m; sourceTree = "<group>"; };
+		C5E3767223BE01F100D3F5CE /* HBS_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBS_Tools.h; sourceTree = "<group>"; };
+		C5E3767323BE01F100D3F5CE /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C5E3768523BE027E00D3F5CE /* BasePtotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePtotocol.h; sourceTree = "<group>"; };
+		C5E3768723BE030800D3F5CE /* ServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerConfig.m; sourceTree = "<group>"; };
+		C5E3768823BE030800D3F5CE /* ServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConfig.h; sourceTree = "<group>"; };
+		C5E3768B23BE036800D3F5CE /* NSObject_property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_property.h; sourceTree = "<group>"; };
+		C5E3768C23BE036900D3F5CE /* NSObject_property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_property.m; sourceTree = "<group>"; };
+		C5E3768F23BE03A300D3F5CE /* BaseKVCObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseKVCObj.h; sourceTree = "<group>"; };
+		C5E3769023BE03A300D3F5CE /* BaseKVCObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseKVCObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +114,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C526255F23BF168800EC1910 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C526256023BF16BE00EC1910 /* PrintDataModel.h */,
+				C526256123BF16BE00EC1910 /* PrintDataModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		C5E3763623BDFEAE00D3F5CE = {
 			isa = PBXGroup;
 			children = (
+				C5E3765A23BE002E00D3F5CE /* files */,
 				C5E3764223BDFEAE00D3F5CE /* Selpic */,
 				C5E3764D23BDFEAE00D3F5CE /* SelpicTests */,
 				C5E3764123BDFEAE00D3F5CE /* Products */,
@@ -86,6 +160,44 @@
 			path = SelpicTests;
 			sourceTree = "<group>";
 		};
+		C5E3765A23BE002E00D3F5CE /* files */ = {
+			isa = PBXGroup;
+			children = (
+				C526255F23BF168800EC1910 /* model */,
+				C5E3768F23BE03A300D3F5CE /* BaseKVCObj.h */,
+				C5E3769023BE03A300D3F5CE /* BaseKVCObj.m */,
+				C5E3768B23BE036800D3F5CE /* NSObject_property.h */,
+				C5E3768C23BE036900D3F5CE /* NSObject_property.m */,
+				C5E3768823BE030800D3F5CE /* ServerConfig.h */,
+				C5E3768723BE030800D3F5CE /* ServerConfig.m */,
+				C5E3765C23BE004000D3F5CE /* GCDAsyncSocket.h */,
+				C5E3765D23BE004000D3F5CE /* GCDAsyncSocket.m */,
+				C5E3765E23BE004000D3F5CE /* Product.h */,
+				C5E3765B23BE003F00D3F5CE /* Product.m */,
+				C5E3767323BE01F100D3F5CE /* AFNetworkReachabilityManager.h */,
+				C5E3766B23BE01F000D3F5CE /* AFNetworkReachabilityManager.m */,
+				C5E3766323BE01EF00D3F5CE /* dhServerApi.h */,
+				C5E3768523BE027E00D3F5CE /* BasePtotocol.h */,
+				C5E3766A23BE01F000D3F5CE /* dhServerApi.m */,
+				C5E3767223BE01F100D3F5CE /* HBS_Tools.h */,
+				C5E3766623BE01EF00D3F5CE /* HBS_Tools.m */,
+				C5E3766523BE01EF00D3F5CE /* PenMaJiProtocol.h */,
+				C5E3766923BE01F000D3F5CE /* PenMaJiProtocol.m */,
+				C5E3766E23BE01F000D3F5CE /* PrinterItem.h */,
+				C5E3766F23BE01F000D3F5CE /* PrinterItem.m */,
+				C5E3766423BE01EF00D3F5CE /* ProductDefine.h */,
+				C5E3767023BE01F000D3F5CE /* ServerApi.h */,
+				C5E3767123BE01F100D3F5CE /* ServerApi.m */,
+				C5E3766C23BE01F000D3F5CE /* TcpCmd.h */,
+				C5E3766D23BE01F000D3F5CE /* TcpCmd.m */,
+				C5E3766723BE01F000D3F5CE /* UIImage+CECategory.h */,
+				C5E3766823BE01F000D3F5CE /* UIImage+CECategory.m */,
+				C526255A23BED27700EC1910 /* SelpicManager.h */,
+				C526255B23BED27700EC1910 /* SelpicManager.m */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +205,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E3768623BE027E00D3F5CE /* BasePtotocol.h in Headers */,
+				C5E3768A23BE030800D3F5CE /* ServerConfig.h in Headers */,
+				C5E3767423BE01F100D3F5CE /* dhServerApi.h in Headers */,
+				C5E3767D23BE01F100D3F5CE /* TcpCmd.h in Headers */,
+				C5E3768123BE01F100D3F5CE /* ServerApi.h in Headers */,
+				C526255C23BED27700EC1910 /* SelpicManager.h in Headers */,
+				C5E3767623BE01F100D3F5CE /* PenMaJiProtocol.h in Headers */,
+				C5E3768323BE01F100D3F5CE /* HBS_Tools.h in Headers */,
+				C5E3767523BE01F100D3F5CE /* ProductDefine.h in Headers */,
+				C5E3766223BE004000D3F5CE /* Product.h in Headers */,
 				C5E3765123BDFEAE00D3F5CE /* Selpic.h in Headers */,
+				C5E3767F23BE01F100D3F5CE /* PrinterItem.h in Headers */,
+				C5E3768423BE01F100D3F5CE /* AFNetworkReachabilityManager.h in Headers */,
+				C5E3769123BE03A300D3F5CE /* BaseKVCObj.h in Headers */,
+				C526256223BF16BE00EC1910 /* PrintDataModel.h in Headers */,
+				C5E3768D23BE036900D3F5CE /* NSObject_property.h in Headers */,
+				C5E3767823BE01F100D3F5CE /* UIImage+CECategory.h in Headers */,
+				C5E3766023BE004000D3F5CE /* GCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +323,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E3766123BE004000D3F5CE /* GCDAsyncSocket.m in Sources */,
+				C5E3769223BE03A300D3F5CE /* BaseKVCObj.m in Sources */,
+				C5E3767B23BE01F100D3F5CE /* dhServerApi.m in Sources */,
+				C5E3767A23BE01F100D3F5CE /* PenMaJiProtocol.m in Sources */,
+				C5E3768023BE01F100D3F5CE /* PrinterItem.m in Sources */,
+				C5E3767C23BE01F100D3F5CE /* AFNetworkReachabilityManager.m in Sources */,
+				C5E3767923BE01F100D3F5CE /* UIImage+CECategory.m in Sources */,
+				C5E3768E23BE036900D3F5CE /* NSObject_property.m in Sources */,
+				C5E3765F23BE004000D3F5CE /* Product.m in Sources */,
+				C526255D23BED27700EC1910 /* SelpicManager.m in Sources */,
+				C5E3768923BE030800D3F5CE /* ServerConfig.m in Sources */,
+				C5E3768223BE01F100D3F5CE /* ServerApi.m in Sources */,
+				C526256323BF16BE00EC1910 /* PrintDataModel.m in Sources */,
+				C5E3767E23BE01F100D3F5CE /* TcpCmd.m in Sources */,
+				C5E3767723BE01F100D3F5CE /* HBS_Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
